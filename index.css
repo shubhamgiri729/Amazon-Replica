@@ -1,0 +1,443 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#nav_container {
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+}
+
+#amazon {
+    width: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+#amazonLogo{
+    width: 52px;
+    padding-top: 20px;
+    position: absolute;
+    z-index: 1;
+    clip-path: inset(0% 0% 40% 0%);
+}
+
+.img_loc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.img-loc {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    clip-path: inset(23% 23% 23% 23%);
+}
+
+
+.loc {
+    color: white;
+    width: 150px;
+    font-size: small;
+    display: flex;
+    gap: 0px;
+}
+
+.All_details {
+    color: black;
+    width: 30px;
+    background-color: grey;
+    height: 35px;
+    padding-top: 5px;
+    border-radius: 10%;
+}
+
+details summary {
+    list-style: none;
+}
+
+.all_list {
+    list-style: none;
+    background-color: white;
+    width: 150px;
+    margin-top: 10.5px;
+    position: relative;
+    z-index: 2;
+}
+
+.category {
+    background-color: grey;
+}
+
+#account {
+    color: white;
+    text-decoration: none;
+    padding-top: 9px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+#order {
+    color: white;
+    padding-top: 9px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#cart {
+    color: white;
+    padding-top: 9px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#contact {
+    color: white;
+    padding-top: 5px
+}
+
+
+.search_container {
+    display: flex;
+    gap: 0px;
+}
+
+#search_bar {
+    position: relative;
+    z-index: 1;
+    height: 38px;
+    width: 600px;
+    color: black;
+    background-color: white;
+    border-radius: 5%;
+}
+
+#search_button {
+    height: 41px;
+    width: 50px;
+    background-color: #f08804;
+    color: white;
+    border-radius: 8%;
+}
+
+.img-cart {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    clip-path: inset(20% 18% 20% 18%);
+}
+
+.my_cart{
+    display: flex;
+    gap: 5px;
+}
+
+main{
+    position: relative;
+    padding-top: 60px;
+    background-color: #dcdcdc;
+}
+
+.box {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.box h1{
+    padding-top: 10px;
+}
+
+
+.display_offer1{
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 380px;
+}
+
+.fade {
+  animation: fadeEffect 2s ease-in-out;
+}
+
+@keyframes fadeEffect {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+.mainOfferImg{
+    height: 700px;
+    width: 1513px;
+}
+
+.slideshow-container{
+    position: absolute;
+    z-index: 2;
+    height: 770px;
+    background: linear-gradient(to bottom,#06a1fb 90%,#dcdcdc 100%);
+}
+
+#box1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.text-elec{
+    font-size: 12px;
+}
+
+.text-home{
+    font-size: 12px;
+}
+
+.text-deal{
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 200px;
+    text-decoration: none;
+}
+.launches{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#box2 h1{
+    padding-left: 20px;
+}
+
+#box3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.headphoneOffer{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#box4 h1{
+    padding-left: 20px;
+}
+
+.display_offer2{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.fitness-outerdoor-products{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.fitness-outerdoor-products p{
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.fitness{
+    padding-left: 20px;
+}
+
+.top-elec{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.top-elec p{
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#laptop{
+    padding-left: 70px;
+}
+.best-com{
+    padding-left: 20px;
+}
+
+.study-materials{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: white;
+}
+
+
+.study-header{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.study-acc{
+    padding-left: 20px;
+}
+
+.study-acc p{
+    font-size: 11px;
+}
+
+.trending-item{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+}
+
+.trending-item p{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.most-loved-products{
+    padding-left: 30px;
+}
+
+.best-beauty-product{
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.beauty-product{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.title-beauty-product{
+    background-color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.title-beauty-product a{
+    font-size: 17px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.tech-offer{
+    background-color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.best-tech-deal{
+    overflow: auto;
+    white-space: nowrap; /* to create horizontal scrollbar */
+    background-color: white;
+}
+
+.tech-product{
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+footer{
+    background-color: #1F2A3A;
+}
+
+.backToTop{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+
+}
+
+.other-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.aboutFooter{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+footer li{
+    list-style: none;
+    padding-bottom: 10px;
+    font-size: 15px;
+    opacity: 80%;
+
+}
+
+footer li:hover{
+    text-decoration: underline;
+}
+
+.copy {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    height: 60px;
+}
